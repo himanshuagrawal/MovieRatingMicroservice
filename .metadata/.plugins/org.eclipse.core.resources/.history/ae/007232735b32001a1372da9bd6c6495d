@@ -1,0 +1,11 @@
+package com.altria.demo.ratingservice;
+
+public class RatingBean {
+	
+	private int userId;
+	private int rating;
+	private int movieId;
+	
+	
+
+}

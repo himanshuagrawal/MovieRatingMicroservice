@@ -1,0 +1,9 @@
+package com.altria.demo.ratingservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RatingServiceController {
+	
+	
+}

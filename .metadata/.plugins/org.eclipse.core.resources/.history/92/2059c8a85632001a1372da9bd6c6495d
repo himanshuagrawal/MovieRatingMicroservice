@@ -1,0 +1,9 @@
+package com.altria.demo.movieservice;
+
+public class MovieBean {
+
+	private int movieId;
+	private String movieName;
+	
+	
+}

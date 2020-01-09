@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-cloud-config-server/git-config/user-service.properties.txt&apos; to &apos;user-service.properties&apos;" description="Rename resource &apos;user-service.properties.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="git-config/user-service.properties.txt" name="user-service.properties" stamp="1578498059635" updateReferences="true"/>
+</session>

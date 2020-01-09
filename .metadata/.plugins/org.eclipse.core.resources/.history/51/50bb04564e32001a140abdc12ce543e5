@@ -1,0 +1,11 @@
+package com.altria.demo.userservice;
+
+public class MovieRatingsBean {
+	
+	private int userId;
+	private int movieId;
+	private String movieName;
+	private String userName;
+	private int ratings;
+
+}

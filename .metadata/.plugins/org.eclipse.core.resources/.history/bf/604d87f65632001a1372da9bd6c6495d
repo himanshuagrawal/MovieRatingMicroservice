@@ -1,0 +1,19 @@
+package com.altria.demo.movieservice;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MovieServiceController {
+	
+	@Autowired
+	private MovieService movieService;
+	
+	@GetMapping(value="/getMovie")
+	public MovieBean getMovie(@RequestParam("movieId") int movieId){
+		
+	}
+
+}

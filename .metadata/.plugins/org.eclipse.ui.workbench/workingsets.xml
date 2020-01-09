@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578495208793_0" label="eureka-server" name="eureka-server">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-server" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578496418689_1" label="spring-cloud-config-server" name="spring-cloud-config-server">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-cloud-config-server" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578497740613_3" label="user-service" name="user-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/user-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578513748647_4" label="movie-service" name="movie-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/movie-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578513775709_5" label="rating-service" name="rating-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rating-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578525103657_6" label="zuul-proxy-server" name="zuul-proxy-server">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zuul-proxy-server" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1578496590467_2" label="Window Working Set" name="Aggregate for window 1578496590467"/>
+</workingSetManager>

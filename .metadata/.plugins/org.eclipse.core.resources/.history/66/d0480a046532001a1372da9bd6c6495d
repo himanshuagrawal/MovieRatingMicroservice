@@ -1,0 +1,29 @@
+package com.altria.demo.userservice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	private static Map<Integer,String> map;
+	static{
+		map = new HashMap<>();
+		map.put(101, "Aman");
+		map.put(102, "Raj");
+		map.put(103, "Bobby");
+	}
+	
+	public UserBean getMovieRatings(int userId){
+		UserBean userBean = new UserBean(userId,map.get(userId));
+		return userBean;
+	}
+
+}

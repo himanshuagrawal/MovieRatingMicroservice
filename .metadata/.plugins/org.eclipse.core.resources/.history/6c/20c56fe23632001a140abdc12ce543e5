@@ -1,0 +1,107 @@
+package com.altria.demo.userservice;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@ConfigurationProperties(prefix = "user-service")
+public class UserPropertiesConfig {
+
+	private int ram;
+	private int aman;
+	private int raj;
+	private int rahul;
+	private int ajay;
+	private int amir;
+	private int anuj;
+	private int amar;
+	
+	public UserPropertiesConfig() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public UserPropertiesConfig(int ram, int aman, int raj, int rahul, int ajay, int amir, int anuj, int amar) {
+		super();
+		this.ram = ram;
+		this.aman = aman;
+		this.raj = raj;
+		this.rahul = rahul;
+		this.ajay = ajay;
+		this.amir = amir;
+		this.anuj = anuj;
+		this.amar = amar;
+	}
+
+
+
+	public int getRam() {
+		return ram;
+	}
+
+	public void setRam(int ram) {
+		this.ram = ram;
+	}
+
+	public int getAman() {
+		return aman;
+	}
+
+	public void setAman(int aman) {
+		this.aman = aman;
+	}
+
+	public int getRaj() {
+		return raj;
+	}
+
+	public void setRaj(int raj) {
+		this.raj = raj;
+	}
+
+	public int getRahul() {
+		return rahul;
+	}
+
+	public void setRahul(int rahul) {
+		this.rahul = rahul;
+	}
+
+	public int getAjay() {
+		return ajay;
+	}
+
+	public void setAjay(int ajay) {
+		this.ajay = ajay;
+	}
+
+	public int getAmir() {
+		return amir;
+	}
+
+	public void setAmir(int amir) {
+		this.amir = amir;
+	}
+
+	public int getAnuj() {
+		return anuj;
+	}
+
+	public void setAnuj(int anuj) {
+		this.anuj = anuj;
+	}
+
+	public int getAmar() {
+		return amar;
+	}
+
+	public void setAmar(int amar) {
+		this.amar = amar;
+	}
+	
+	
+	
+	
+
+}

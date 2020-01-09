@@ -1,0 +1,26 @@
+package com.altria.demo.userservice;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "user-service")
+public class UserPropertiesConfig {
+
+	private int ram;
+	private int aman;
+	private int raj;
+	private int rahul;
+	private int ajay;
+	private int amir;
+	private int anuj;
+	private int amar;
+	
+	public UserPropertiesConfig() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

@@ -1,0 +1,6 @@
+package com.altria.demo.movieservice;
+
+@Service
+public class MovieService {
+
+}

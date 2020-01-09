@@ -1,0 +1,24 @@
+package com.altria.demo.userservice;
+
+import java.util.logging.Logger;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	private Logger logger  = Logger.getLogger(UserController.class.getName());
+	@Autowired
+	private UserPropertiesConfig propConfig;
+	
+	@GetMapping(value="/getUser")
+	public int getUserIdFromName(@RequestParam("name") String name){
+		logger.info(name);
+		propConfig.setAjay(10);
+		return propConfig.getAjay();
+	}
+
+}

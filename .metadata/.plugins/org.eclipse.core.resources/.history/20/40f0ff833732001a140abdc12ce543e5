@@ -1,0 +1,8 @@
+package com.altria.demo.userservice;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix = "user-service")
+public class UserPropertiesConfig {
+	
+}

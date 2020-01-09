@@ -1,0 +1,8 @@
+package com.altria.demo.userservice;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+
+}

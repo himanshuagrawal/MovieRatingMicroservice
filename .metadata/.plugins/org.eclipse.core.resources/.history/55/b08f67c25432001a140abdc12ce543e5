@@ -1,0 +1,6 @@
+package com.altria.demo.movieservice;
+
+@RestController
+public class MovieServiceController {
+
+}
